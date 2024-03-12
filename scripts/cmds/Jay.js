@@ -1,6 +1,6 @@
 module.exports = {
     config: {
-        name: "jay",
+        name: "lyn",
         version: "1.0",
         author: "Jay Senpai",
         countDown: 5,
@@ -16,9 +16,9 @@ module.exports = {
         getLang
     }) {
         const lowerCaseBody = event.body.toLowerCase();
-        if (lowerCaseBody.includes("jay") || lowerCaseBody.includes("jay d bohol") ||
-lowerCaseBody.includes("bohol") ||
-lowerCaseBody.includes("Jay D Bohol")) {
+        if (lowerCaseBody.includes("lyn") || lowerCaseBody.includes("Lyn") ||
+lowerCaseBody.includes("reyes") ||
+lowerCaseBody.includes("lyn reyes")) {
             return message.reply(`busy pa master ko`);
         }
     }

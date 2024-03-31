@@ -18,7 +18,7 @@ module.exports = {
         case "women":
           return message.reply({
             body: "「 Women ☕ 」",
-            attachment: fs.createReadStream("women.mp3"),
+            attachment: fs.createReadStream("women.mp4"),
           });
         case "yamate":
           return message.reply({
@@ -73,7 +73,7 @@ module.exports = {
         case "omg":
           return message.reply({
             body: "「 OMG WoW 😳 」",
-            attachment: fs.createReadStream("omg.mp3"),
+            attachment: fs.createReadStream("omg.mp4"),
           });
         default:
           return; 

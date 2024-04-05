@@ -4,14 +4,14 @@ module.exports = {
   config: {
     name: "bible",
     version: "1.0",
-    author: "SiAM",
+    author: "Jay",
     countDown: 5,
     role: 0,
     shortDescription: "This command allows users read bible.",
-    longDescription: "This command enables users to play the classic Truth or Dare game. They can choose either 'Truth' or 'Dare' and receive a randomly selected question or challenge.",
+    longDescription: "This command enables users to read bible",
     category: "Games",
     guide: {
-      en: "To play the Truth or Dare game, use the command '{pn} truth' for a truth question or '{pn} dare' for a dare challenge."
+      en: "To read bible verse tagalog, use the command '{pn}bible tagalog.' "
     }
   },
 
@@ -20,7 +20,7 @@ module.exports = {
     const [arg1] = args;
 
     if (!arg1) {
-      message.reply("Bibletest.");
+      message.reply("Bible verse");
       return;
     }
 

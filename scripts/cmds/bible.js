@@ -11,7 +11,7 @@ module.exports = {
     longDescription: "This command enables users to read bible",
     category: "Games",
     guide: {
-      en: "To read bible verse tagalog, use the command '{pn}bible tagalog.' "
+      en: "To read bible verse tagalog, use the command '{pn} tagalog.' "
     }
   },
 

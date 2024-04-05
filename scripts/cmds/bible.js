@@ -24,7 +24,7 @@ module.exports = {
       return;
     }
 
-     if (arg1.toLowerCase() === 'bible') {
+     if (arg1.toLowerCase() === 'tagalog') {
       const dareChallenges = JSON.parse(fs.readFileSync(`${__dirname}/assist_json/bible.json`));
       const randomIndex = Math.floor(Math.random() * dareChallenges.length);
       const randomChallenge = dareChallenges[randomIndex];

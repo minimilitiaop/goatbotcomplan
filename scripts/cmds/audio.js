@@ -40,10 +40,10 @@ module.exports = {
             body: "「 Good Night 🌉 」",
             attachment: fs.createReadStream("night.mp3"),
           });
-        case "sus":
+        case "wow maayung gabii":
           return message.reply({
             body: "「 ඞ 」",
-            attachment: fs.createReadStream("sus.mp3"),
+            attachment: fs.createReadStream("wow.mp4"),
           });
         case "good morning":
           return message.reply({

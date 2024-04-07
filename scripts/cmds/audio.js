@@ -50,10 +50,10 @@ module.exports = {
             body: "「 Good Morning 🌄 」",
             attachment: fs.createReadStream("gm.mp3"),
           });
-        case "yourmom":
+        case "superbook":
           return message.reply({
-            body: "「 Bujis ki nai? 」",
-            attachment: fs.createReadStream("yourmom.mp3"),
+            body: "「  」",
+            attachment: fs.createReadStream("superbook.mp4"),
           });
         case "machikney":
           return message.reply({
